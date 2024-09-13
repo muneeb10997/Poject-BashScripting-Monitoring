@@ -16,6 +16,6 @@ disk_usage=$(df -h  | awk 'NR>1 {total_size+=$2; total_used+=$3} END {printf "To
 
 
 # sending data to monitoring file
-echo "$date_time = $cpu_usage = $memory_usage = $disk_usage" >> monitoring.txt
+echo "$date_time , $cpu_usage , $memory_usage , $disk_usage" > monitoring.txt
 
 echo "Monitoring data added to monitoring.txt file"
