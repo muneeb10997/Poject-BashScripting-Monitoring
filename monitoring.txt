@@ -1,0 +1,1 @@
+date = 2024/09/14_01:14:40 = Total CPU usage is : 12.3% = Total memory used : 36.4% = Total disk usage : 2.9%
