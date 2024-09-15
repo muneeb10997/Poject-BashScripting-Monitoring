@@ -12,7 +12,7 @@ memory_usage=$(top -b -n1 | grep "MiB Mem" | awk '{printf "Total memory used = %
 
 
 #Disk Usage 
-disk_usage=$(df -h  | awk 'NR>1 {total_size+=$2; total_used+=$3} END {printf "Total disk usage = %.1f%%\n", (total_used / total_size) * 100}')
+disk_usage=$(df --block-size=1  | awk 'NR>1 {total_size+=$2; total_used+=$3} END {printf "Total disk usage = %.1f%%\n", (total_used / total_size) * 100}')
 
 
 # sending data to monitoring file

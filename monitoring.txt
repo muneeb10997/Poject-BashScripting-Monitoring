@@ -1,1 +1,1 @@
-date = 2024/09/14_01:24:52 , Total CPU usage is : 12.5% , Total memory used : 37.7% , Total disk usage : 2.9%
+date = 2024/09/16_01:21:06 , Total CPU usage is = 9.1% , Total memory used = 45.7% , Total disk usage = 3.4%
